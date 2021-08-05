@@ -1,0 +1,2 @@
+Запустить BankAccount пример используя Java Stream API parallel() метод
+с использованием собственного ThreadPool.
