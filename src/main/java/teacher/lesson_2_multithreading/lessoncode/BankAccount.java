@@ -1,4 +1,4 @@
-package teacher.lesson_17_multithreading.lessoncode;
+package teacher.lesson_2_multithreading.lessoncode;
 
 public class BankAccount {
 

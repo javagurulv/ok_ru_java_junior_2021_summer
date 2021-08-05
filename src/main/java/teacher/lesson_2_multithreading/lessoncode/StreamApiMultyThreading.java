@@ -1,4 +1,4 @@
-package teacher.lesson_17_multithreading.lessoncode;
+package teacher.lesson_2_multithreading.lessoncode;
 
 import java.util.ArrayList;
 import java.util.List;
