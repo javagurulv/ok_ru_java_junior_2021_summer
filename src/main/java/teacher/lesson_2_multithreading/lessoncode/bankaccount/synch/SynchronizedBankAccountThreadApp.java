@@ -1,9 +1,9 @@
-package teacher.lesson_2_multithreading.lessoncode;
+package teacher.lesson_2_multithreading.lessoncode.bankaccount.synch;
 
-public class BankAccountThreadApp {
+public class SynchronizedBankAccountThreadApp {
 
 	public static void main(String[] args) {
-		BankAccount bankAccount = new BankAccount(0);
+		SynchronizedBankAccount bankAccount = new SynchronizedBankAccount(0);
 
 		Thread thread1 = new Thread(new AddMoneyThread(bankAccount));
 		Thread thread2 = new Thread(new RemoveMoneyThread(bankAccount));
