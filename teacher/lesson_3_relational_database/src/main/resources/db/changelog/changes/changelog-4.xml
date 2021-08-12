@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd">
+
+    <changeSet author="javaguru" id="6">
+        <addColumn tableName="books" >
+		    <column name="version" type="int" defaultValue="0"/>
+    	</addColumn>
+        <rollback>
+            <dropColumn tableName="books">
+                <column name = "version"/>
+            </dropColumn>
+        </rollback>
+    </changeSet>
+
+    <changeSet author="javaguru" id="7">
+        <addColumn tableName="readers" >
+		    <column name="version" type="int" defaultValue="0"/>
+    	</addColumn>
+        <rollback>
+            <dropColumn tableName="readers">
+                <column name = "version"/>
+            </dropColumn>
+        </rollback>
+    </changeSet>
+
+    <changeSet author="javaguru" id="8">
+        <addColumn tableName="reader_books" >
+		    <column name="version" type="int" defaultValue="0"/>
+    	</addColumn>
+        <rollback>
+            <dropColumn tableName="reader_books">
+                <column name = "version"/>
+            </dropColumn>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>
