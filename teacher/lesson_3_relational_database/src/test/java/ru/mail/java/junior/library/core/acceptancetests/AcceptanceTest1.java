@@ -3,6 +3,7 @@ package ru.mail.java.junior.library.core.acceptancetests;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -15,6 +16,7 @@ import ru.mail.java.junior.library.core.responses.GetAllBooksResponse;
 import ru.mail.java.junior.library.core.services.AddBookService;
 import ru.mail.java.junior.library.core.services.GetAllBooksService;
 
+@Ignore
 public class AcceptanceTest1 {
 
 	private ApplicationContext appContext;
