@@ -1,4 +1,10 @@
 include 'teacher:lesson_2_multithreading'
 include 'teacher:lesson_3_relational_database'
 
+include 'teacher:lesson_5:core-dto'
+include 'teacher:lesson_5:core-rest'
+include 'teacher:lesson_5:core-api'
+include 'teacher:lesson_5:core'
+include 'teacher:lesson_5:core-app'
+
 include 'team_student_x'

@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.14
+targetCompatibility = 1.14
+
+
+project(":teacher:lesson_5:core-dto") {
+    dependencies {
+        compile('org.springframework.boot:spring-boot-starter-web:1.5.17.RELEASE')
+    }
+}

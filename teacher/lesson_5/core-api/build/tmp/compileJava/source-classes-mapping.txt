@@ -1,0 +1,20 @@
+ru/mail/java/junior/ddd/core/api/commands/clients/GetClientResult.java
+ ru.mail.java.junior.ddd.core.api.commands.clients.GetClientResult
+ru/mail/java/junior/ddd/core/api/commands/clients/UpdateClientResult.java
+ ru.mail.java.junior.ddd.core.api.commands.clients.UpdateClientResult
+ru/mail/java/junior/ddd/core/api/commands/DomainCommand.java
+ ru.mail.java.junior.ddd.core.api.commands.DomainCommand
+ru/mail/java/junior/ddd/core/api/commands/clients/UpdateClientCommand.java
+ ru.mail.java.junior.ddd.core.api.commands.clients.UpdateClientCommand
+ru/mail/java/junior/ddd/core/api/commands/DomainCommandResult.java
+ ru.mail.java.junior.ddd.core.api.commands.DomainCommandResult
+ru/mail/java/junior/ddd/core/api/commands/VoidResult.java
+ ru.mail.java.junior.ddd.core.api.commands.VoidResult
+ru/mail/java/junior/ddd/core/api/CommandExecutor.java
+ ru.mail.java.junior.ddd.core.api.CommandExecutor
+ru/mail/java/junior/ddd/core/api/commands/clients/RegisterClientCommand.java
+ ru.mail.java.junior.ddd.core.api.commands.clients.RegisterClientCommand
+ru/mail/java/junior/ddd/core/api/commands/clients/RegisterClientResult.java
+ ru.mail.java.junior.ddd.core.api.commands.clients.RegisterClientResult
+ru/mail/java/junior/ddd/core/api/commands/clients/GetClientCommand.java
+ ru.mail.java.junior.ddd.core.api.commands.clients.GetClientCommand

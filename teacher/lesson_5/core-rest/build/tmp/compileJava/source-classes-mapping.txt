@@ -1,0 +1,4 @@
+ru/mail/java/junior/ddd/core/rest/CoreControllerAdvice.java
+ ru.mail.java.junior.ddd.core.rest.CoreControllerAdvice
+ru/mail/java/junior/ddd/core/rest/ClientRestController.java
+ ru.mail.java.junior.ddd.core.rest.ClientRestController
