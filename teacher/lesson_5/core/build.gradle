@@ -13,15 +13,5 @@ project(":teacher:lesson_5:core") {
         compile('org.hibernate:hibernate-java8:5.0.12.Final')
         compile('org.springframework.boot:spring-boot-starter-test:1.5.17.RELEASE')
 
-/*
-        compile libs.spring_boot_starter_web
-        compile libs.spring_boot_starter_data_jpa
-        compile libs.hibernateJava8
-        compile libs.h2
-        compile libs.liquibase
-        compile libs.guava
-
-        compile libs.spring_boot_starter_test
-*/
     }
 }
