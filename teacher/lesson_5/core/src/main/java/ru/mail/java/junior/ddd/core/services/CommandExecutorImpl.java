@@ -32,7 +32,7 @@ class CommandExecutorImpl implements CommandExecutor {
         }
     }
 
-    @Transactional()
+    @Transactional
     public <T extends DomainCommandResult> T execute(DomainCommand<T> domainCommand) {
         DomainCommandHandler service = commandHandlersMap.get(domainCommand.getClass());
         if(service != null) {
