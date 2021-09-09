@@ -7,4 +7,6 @@ include 'teacher:lesson_5:core-api'
 include 'teacher:lesson_5:core'
 include 'teacher:lesson_5:core-app'
 
+include 'teacher:lesson_7_business_code_vs_technical_code'
+
 include 'team_student_x'
